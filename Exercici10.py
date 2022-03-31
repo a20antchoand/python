@@ -6,5 +6,5 @@ print(header)
 rows = []
 for row in csvreader:
     rows.append(row)
-print(rows)
+    print(row)
 file.close()
